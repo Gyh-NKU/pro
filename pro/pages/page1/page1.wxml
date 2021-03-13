@@ -1,0 +1,13 @@
+<!--pages/test/test.wxml-->
+<view>
+    <view class="container">  
+    <text class='title'>请输入手机号码</text>  
+    </view> 
+    <view class="container">
+        <input type="number" bindinput='expInput' class='inputer'/>
+    </view>
+    <view class="container">
+        <button class="btn" bindtap="next">点击查看</button>
+    </view>
+</view>
+

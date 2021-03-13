@@ -1,0 +1,28 @@
+/* pages/page2.wxss */
+.area1{
+  display: flex;
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  background-color: aquamarine;
+  border-radius: 30rpx;
+  padding: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx; 
+  font-weight: bolder;
+}
+.area2{
+  display: flex;
+  width: 237rpx;
+  height: 100rpx;
+  margin-left: 30rpx; 
+  float: left;
+  background-color: aquamarine;
+  border-radius: 30rpx;
+  padding: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx; 
+  font-weight: bolder;
+}

@@ -1,0 +1,45 @@
+/* pages/test/test.wxss */
+.window{
+  color:#49bb16;
+}
+.window-red{
+  color: #d23933;
+}
+.inputer{
+  display:flex;
+  width: 300rpx;
+  height: 80rpx;
+  background-color: #fcf8f988;
+  border-radius: 30rpx;
+  align-items: center;
+  justify-content: center;
+   padding-left: 75rpx;
+  /* padding-right: 80rpx; */
+}
+.title{
+  display: flex;
+  width: 500rpx;
+  height:100rpx;
+  align-items: center;
+  border-radius: 30rpx;
+  /* margin: auto; */
+  justify-content: center;
+  color:rgb(65, 60, 60);
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.btn{
+  display: flex;
+  width: 500rpx;
+  height:100rpx;
+  align-items: center;
+  border-radius: 30rpx;
+  /* margin: auto; */
+  justify-content: center;
+  background-color: #bd677ce7;
+  color: rgb(211, 219, 226);
+}
+page{
+  min-height: 100%;
+  background-image: url("https://gyhpro.oss-cn-beijing.aliyuncs.com/pictures/002.jpg?versionId=CAEQDBiBgMCd15mcwRciIDhiZWM0NzgyMjc5MzQxNTVhYzNkOTkyNDQyMjI2MzQ5");
+}

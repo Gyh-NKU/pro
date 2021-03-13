@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class="btn-area">  
+   <button bindtap="change">跳转到测试页面</button>
+ </view> 
