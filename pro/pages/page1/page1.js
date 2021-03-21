@@ -1,44 +1,34 @@
 // pages/test/test.js
-var flag=false;
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userInfo: {} ,
-    color:"window"
+    num:'',
   },
 
   next:function(){
     wx:wx.navigateTo({
-      url: '../page2/page2',
+      url: '../page2/page2?id='+this.num,
+      
     })
   },
+
+  expInput:function(e){
+    let that=this
+    console.log(e.detail.value);
+    that.num=e.detail.value;
+    
+},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('onLoad test');
+    
   },
 
-  change_color: function(){
-    let that=this;
-    
-    if(flag){
-      that.setData({
-        color:"window-red"
-        }
-      )
-      flag=false;
-    }
-    else{
-      that.setData({
-        color:"window"
-      })
-      flag=true;
-    }
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -63,8 +53,9 @@ Page({
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
 
+  onUnload: function () {
+    
   },
 
   /**
@@ -78,7 +69,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    
   },
 
   /**

@@ -1,5 +1,12 @@
 <!--pages/page2.wxml-->
 <view style="margin : 70rpx">
   <view class='area1'>所在区域</view>
-  <view class='area2'> {{area}}</view>
+  <view class='area2'> <text>{{province}}\n{{city}} </text> </view>
+  <view class='weather'>
+    <view>天气:  {{weather}}</view>
+  </view>
+  <view class='air' style='background-color: rgb(241, 156, 156); '>气温: {{tem}}℃</view>
+  <view class='air'>空气质量： {{air}} </view>
+  <view class='sug'>建议: {{air_tips}}</view>
+  
 </view>

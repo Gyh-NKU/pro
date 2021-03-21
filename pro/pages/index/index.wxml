@@ -1,4 +1,9 @@
 <!--pages/index/index.wxml-->
-<view class="btn-area">  
+<view class="container">
+  <view class='title'>
+    程序测试
+  </view>
+  <view class="btn-area">  
    <button bindtap="change">跳转到测试页面</button>
- </view> 
+  </view> 
+</view>

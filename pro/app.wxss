@@ -8,3 +8,15 @@
   padding: 180rpx;
   box-sizing: border-box;
 } 
+.title{
+  display: flex;
+  width: 500rpx;
+  height:100rpx;
+  align-items: center;
+  border-radius: 30rpx;
+  /* margin: auto; */
+  justify-content: center;
+  color:rgb(65, 60, 60);
+  font-size: 50rpx;
+  font-weight: bold;
+}

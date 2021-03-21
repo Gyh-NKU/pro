@@ -3,6 +3,7 @@
   display: flex;
   width: 100rpx;
   height: 100rpx;
+  margin-bottom: 20rpx;
   float: left;
   background-color: aquamarine;
   border-radius: 30rpx;
@@ -16,7 +17,8 @@
   display: flex;
   width: 237rpx;
   height: 100rpx;
-  margin-left: 30rpx; 
+  margin-left: 30rpx;
+  margin-bottom: 20rpx; 
   float: left;
   background-color: aquamarine;
   border-radius: 30rpx;
@@ -25,4 +27,44 @@
   align-items: center;
   font-size: 50rpx; 
   font-weight: bolder;
+}
+.weather{
+  display: flex;
+  /* height: 150rpx; */
+  margin-bottom: 20rpx;
+  background-color: rgb(127, 197, 255);
+  border-radius: 30rpx;
+  padding: 3%; 
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx; 
+  font-weight: bolder;
+}
+.air{
+  display: flex;
+  /* height: 300rpx; */
+  background-color: rgb(234, 247, 162);
+ 
+  margin-bottom: 20rpx;
+  border-radius: 30rpx;
+  padding: 3%; 
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx; 
+  font-weight: bold;
+}
+.sug{
+  display: flex;
+  /* height: 300rpx; */
+  background-color: rgb(230, 162, 247);
+  border-radius: 30rpx;
+  padding: 3%; 
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx; 
+  font-weight: bold;
+}
+page{
+  min-height: 100%;
+  background-image: url(https://gyhpro.oss-cn-beijing.aliyuncs.com/pictures/005.jpg?versionId=CAEQDBiBgMC5xYvQwhciIGI0NDkzOGQ4NzE0NzQyZGM4ZWE0ZGI4NTg0NjEwMTE2);
 }

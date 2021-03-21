@@ -4,7 +4,7 @@
     <text class='title'>请输入手机号码</text>  
     </view> 
     <view class="container">
-        <input type="number" bindinput='expInput' class='inputer'/>
+        <input type="number" class='inputer'bindinput='expInput' maxlength="11"/>
     </view>
     <view class="container">
         <button class="btn" bindtap="next">点击查看</button>
